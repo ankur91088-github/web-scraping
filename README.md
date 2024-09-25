@@ -1,39 +1,55 @@
-# web-scrapping
+# web-scraping
+This is a web scraping project built using Laravel, designed to extract product data (such as name, price, color variants, availability, shipping information, and images) from a target website and export the results into a JSON file. The scraper handles products with multiple color variants and saves the data in an easily consumable JSON format for later use.
+
 **Note** This code is specific for 'https://www.magpiehq.com/developer-challenge/'
 
 
-**Requirements**
+**Prerequisites**
 
-PHP 8+
+Before you begin, ensure you have the following installed:
 
-Laravel
+PHP (>= 7.4)
 
-Composer
+Composer (for managing PHP dependencies)
 
-Symfony DomCrawler component
+Laravel (>= 8.x)
 
-SQLite
+SQLite (or your preferred database system we use sqlite)
+
+XAMPP (optional for local development environment)
+
+Symfony DomCrawler and Guzzle for scraping
+
+Git (for version control)
 
 Enable the SQLite Extension
-
 Edit php.ini file and enable extension 
 ```bash
 extension=sqlite3
 extension=pdo_sqlite
 ```
 
-**Setup**
+**Project Setup**
+1. **Clone the Repository**
+First, clone the project repository to your local machine:
 ```bash
-git clone https://github.com/ankur91088-github/web-scrapping.git
+git clone https://github.com/ankur91088-github/web-scraping.git
 ```
 ```bash
-cd web-scrapping
+cd web-scraping
 ```
-Edit the .env file and modify according to your environment (for localhost all variable is set)
-
-**Install dependencies**
+2. **Install dependencies**
 ```bash
  composer install
+```
+3. **Setup Environment**
+
+Edit the .env file and modify according to your environment (for localhost all variable is set)
+
+For SQLite, ensure you configure it properly in .env like this:
+```bash
+DB_CONNECTION=sqlite
+DB_DATABASE=database/database.sqlite
 ```
 
 **To run the scrape you can use below command**
