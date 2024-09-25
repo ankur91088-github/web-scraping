@@ -12,13 +12,9 @@ PHP (>= 7.4)
 
 Composer (for managing PHP dependencies)
 
-Laravel (>= 8.x)
-
-SQLite (or your preferred database system we use sqlite)
+SQLite (or your preferred database system , we use sqlite)
 
 XAMPP (optional for local development environment)
-
-Symfony DomCrawler and Guzzle for scraping
 
 Git (for version control)
 
