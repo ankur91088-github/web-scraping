@@ -12,6 +12,16 @@ Composer
 
 Symfony DomCrawler component
 
+SQLite
+
+Enable the SQLite Extension
+
+Edit php.ini file and enable extension 
+```bash
+extension=sqlite3
+extension=pdo_sqlite
+```
+
 **Setup**
 ```bash
 git clone https://github.com/ankur91088-github/web-scrapping-test.git
@@ -19,6 +29,7 @@ git clone https://github.com/ankur91088-github/web-scrapping-test.git
 ```bash
 cd web-scrapping-test
 ```
+Edit the .env file and modify according to your environment (for localhost all variable is set)
 
 **Install dependencies**
 ```bash
@@ -36,7 +47,7 @@ change url to  https://YOUR-URL/scrape
 
 example http://127.0.0.1:8000/scrape
 
-once run **output.json** file is created in **storage\app\private** folder
+once run **output.json** file is created and automatically downloaded on your system
 
 **Output**
 The final output will be array of object of different product
