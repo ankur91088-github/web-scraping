@@ -1,4 +1,4 @@
-# web-scrapping-test
+# web-scrapping
 **Note** This code is specific for 'https://www.magpiehq.com/developer-challenge/'
 
 
