@@ -1,10 +1,10 @@
-# web-scraping
+# Web-scraping
 This is a web scraping project built using Laravel, designed to extract product data (such as name, price, color variants, availability, shipping information, and images) from a target website and export the results into a JSON file. The scraper handles products with multiple color variants and saves the data in an easily consumable JSON format for later use.
 
 **Note** This code is specific for 'https://www.magpiehq.com/developer-challenge/'
 
 
-**Prerequisites**
+# Prerequisites
 
 Before you begin, ensure you have the following installed:
 
@@ -29,7 +29,7 @@ extension=sqlite3
 extension=pdo_sqlite
 ```
 
-**Project Setup**
+# Project Setup
 1. **Clone the Repository**
 First, clone the project repository to your local machine:
 ```bash
@@ -51,7 +51,7 @@ For SQLite, ensure you configure it properly in .env like this:
 DB_CONNECTION=sqlite
 DB_DATABASE=database/database.sqlite
 ```
-
+# Running the Web Scraper
 **To run the scrape you can use below command**
 ```bash
 php artisan serve
@@ -59,13 +59,14 @@ php artisan serve
 
 copy and paste url that display on screen example http://127.0.0.1:8000
 
-change url to  https://YOUR-URL/scrape
-
+change url to  https://YOUR-URL/scrape 
+(replace YOUR-URL with the url display on screen when run command)
 example http://127.0.0.1:8000/scrape
 
-once run **output.json** file is created and automatically downloaded on your system
+once run **output.json** file is created and automatically downloaded on your system .If there is no data available then message display on screen "No Data found on this url."
 
-**Output**
+# Output
+
 The final output will be array of object of different product
 ```bash
 [
