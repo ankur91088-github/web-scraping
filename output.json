@@ -1,0 +1,222 @@
+[
+    {
+        "title": "iPhone 11 Pro",
+        "price": 799.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/images\/iphone-11-pro.png",
+        "capacityMB": 64000,
+        "colour": "Green",
+        "availabilityText": "Availability: Out of Stock",
+        "isAvailable": false,
+        "shippingText": "Availability: Out of Stock",
+        "shippingDate": null
+    },
+    {
+        "title": "iPhone 11",
+        "price": 699.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/images\/iphone-11.png",
+        "capacityMB": 64000,
+        "colour": "Black",
+        "availabilityText": "Availability: In Stock at B90 4SB",
+        "isAvailable": true,
+        "shippingText": "Unavailable for delivery",
+        "shippingDate": null
+    },
+    {
+        "title": "iPhone 11",
+        "price": 699.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/images\/iphone-11.png",
+        "capacityMB": 64000,
+        "colour": "White",
+        "availabilityText": "Availability: In Stock at B90 4SB",
+        "isAvailable": true,
+        "shippingText": "Unavailable for delivery",
+        "shippingDate": null
+    },
+    {
+        "title": "iPhone 12 Pro Max",
+        "price": 1099.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/images\/iphone-12-pro.png",
+        "capacityMB": 128000,
+        "colour": "Sky Blue",
+        "availabilityText": "Availability: In Stock Online",
+        "isAvailable": true,
+        "shippingText": "Delivery by 2024-09-26",
+        "shippingDate": "2024-09-26"
+    },
+    {
+        "title": "Samsung Galaxy S20",
+        "price": 849.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/images\/s-20.png",
+        "capacityMB": 128000,
+        "colour": "Grey",
+        "availabilityText": "Availability: In Stock",
+        "isAvailable": true,
+        "shippingText": "Available on 02 Oct 2024",
+        "shippingDate": "2024-10-02"
+    },
+    {
+        "title": "Huawei P30 Pro",
+        "price": 699.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/images\/p-30.png",
+        "capacityMB": 128000,
+        "colour": "Black",
+        "availabilityText": "Availability: In Stock",
+        "isAvailable": true,
+        "shippingText": "Free Shipping",
+        "shippingDate": null
+    },
+    {
+        "title": "Nokia 3310",
+        "price": 99.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/images\/nokia-3310.png",
+        "capacityMB": 100,
+        "colour": "Orange",
+        "availabilityText": "Availability: Out of Stock",
+        "isAvailable": false,
+        "shippingText": "Delivery from Friday 25th Oct 2024",
+        "shippingDate": "2024-10-25"
+    },
+    {
+        "title": "Nokia 3310",
+        "price": 99.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/images\/nokia-3310.png",
+        "capacityMB": 100,
+        "colour": "Yellow",
+        "availabilityText": "Availability: Out of Stock",
+        "isAvailable": false,
+        "shippingText": "Delivery from Friday 25th Oct 2024",
+        "shippingDate": "2024-10-25"
+    },
+    {
+        "title": "Nokia 3310",
+        "price": 99.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/images\/nokia-3310.png",
+        "capacityMB": 100,
+        "colour": "Grey",
+        "availabilityText": "Availability: Out of Stock",
+        "isAvailable": false,
+        "shippingText": "Delivery from Friday 25th Oct 2024",
+        "shippingDate": "2024-10-25"
+    },
+    {
+        "title": "Nokia 3310",
+        "price": 99.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/images\/nokia-3310.png",
+        "capacityMB": 100,
+        "colour": "Blue",
+        "availabilityText": "Availability: Out of Stock",
+        "isAvailable": false,
+        "shippingText": "Delivery from Friday 25th Oct 2024",
+        "shippingDate": "2024-10-25"
+    },
+    {
+        "title": "Google Pixel 5",
+        "price": 749.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/images\/pixel-5.png",
+        "capacityMB": 256000,
+        "colour": "Black",
+        "availabilityText": "Availability: In Stock",
+        "isAvailable": true,
+        "shippingText": "Delivers Wednesday 25th Sep 2024",
+        "shippingDate": "2024-09-25"
+    },
+    {
+        "title": "Sony Xperia 10",
+        "price": 449.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/images\/sony-xperia.png",
+        "capacityMB": 32000,
+        "colour": "Black",
+        "availabilityText": "Availability: In Stock",
+        "isAvailable": true,
+        "shippingText": "Free Shipping",
+        "shippingDate": null
+    },
+    {
+        "title": "Samsung Galaxy Flip",
+        "price": 1699.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/images\/flip.png",
+        "capacityMB": 128000,
+        "colour": "Slate Grey",
+        "availabilityText": "Availability: Out of Stock",
+        "isAvailable": false,
+        "shippingText": "Availability: Out of Stock",
+        "shippingDate": null
+    },
+    {
+        "title": "Samsung Galaxy S20",
+        "price": 849.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/images\/s-20.png",
+        "capacityMB": 128000,
+        "colour": "Black",
+        "availabilityText": "Availability: In Stock",
+        "isAvailable": true,
+        "shippingText": "Free Delivery 2024-09-26",
+        "shippingDate": "2024-09-26"
+    },
+    {
+        "title": "Oppo Reno4 Pro 5G",
+        "price": 749.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/images\/oppo-reno.png",
+        "capacityMB": 64000,
+        "colour": "Blue",
+        "availabilityText": "Availability: In Stock",
+        "isAvailable": true,
+        "shippingText": "Free Delivery",
+        "shippingDate": null
+    },
+    {
+        "title": "Huawei P Smart",
+        "price": 399.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/images\/huawei-p-smart.png",
+        "capacityMB": 64000,
+        "colour": "Black",
+        "availabilityText": "Availability: In Stock",
+        "isAvailable": true,
+        "shippingText": "Free Delivery tomorrow",
+        "shippingDate": null
+    },
+    {
+        "title": "Google Pixel 4",
+        "price": 499.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/images\/pixel-5.png",
+        "capacityMB": 64000,
+        "colour": "Black",
+        "availabilityText": "Availability: In Stock",
+        "isAvailable": true,
+        "shippingText": "Delivers 25 Sep 2024",
+        "shippingDate": "2024-09-25"
+    },
+    {
+        "title": "Google Pixel 4",
+        "price": 499.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/images\/pixel-5.png",
+        "capacityMB": 64000,
+        "colour": "White",
+        "availabilityText": "Availability: In Stock",
+        "isAvailable": true,
+        "shippingText": "Delivers 25 Sep 2024",
+        "shippingDate": "2024-09-25"
+    },
+    {
+        "title": "LG K42",
+        "price": 499.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/images\/lg-k42.png",
+        "capacityMB": 128000,
+        "colour": "Black",
+        "availabilityText": "Availability: In Stock",
+        "isAvailable": true,
+        "shippingText": "Order within 6 hours and have it 27 Sep 2024",
+        "shippingDate": "2024-09-27"
+    },
+    {
+        "title": "Samsung Galaxy S20",
+        "price": 799.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/images\/s-20.png",
+        "capacityMB": 64000,
+        "colour": "Grey",
+        "availabilityText": "Availability: In Stock",
+        "isAvailable": true,
+        "shippingText": "Free Delivery Thursday 26th Sep 2024",
+        "shippingDate": "2024-09-26"
+    }
+]
