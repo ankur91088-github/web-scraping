@@ -24,10 +24,10 @@ extension=pdo_sqlite
 
 **Setup**
 ```bash
-git clone https://github.com/ankur91088-github/web-scrapping-test.git
+git clone https://github.com/ankur91088-github/web-scrapping.git
 ```
 ```bash
-cd web-scrapping-test
+cd web-scrapping
 ```
 Edit the .env file and modify according to your environment (for localhost all variable is set)
 
