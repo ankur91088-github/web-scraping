@@ -48,7 +48,7 @@ DB_CONNECTION=sqlite
 DB_DATABASE=database/database.sqlite
 ```
 # Running the Web Scraper
-**To run the scrape you can use below command**
+**To run the scrape using web browser you can use below command**
 ```bash
 php artisan serve
 ```
@@ -60,6 +60,12 @@ change url to  https://YOUR-URL/scrape
 example http://127.0.0.1:8000/scrape
 
 once run **output.json** file is created and automatically downloaded on your system .If there is no data available then message display on screen "No Data found on this url."
+
+**To run the scrape using command you can use below command**
+```bash
+php artisan app:scrape
+```
+**output.json** file is created at storage\app location in project
 
 # Output
 
