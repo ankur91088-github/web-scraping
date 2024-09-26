@@ -26,7 +26,11 @@ class ScrapeController extends Controller
     {
         try {
             $productData = $this->scraperServiceObj->scrapeSmartphones();
-            $this->jsonServiceObj->exportProductsToJsonFile('product.json', $productData);
+            if (sizeof($productData) > 0) {
+                return $this->jsonServiceObj->exportProductsToJsonFile('output.json', $productData);
+            } else {
+                echo "No Data found on this url.";
+            }
         } catch (Exception $e) {
             return response()->json([
                 'error' => $e->getMessage(),
