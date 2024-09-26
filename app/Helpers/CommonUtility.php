@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 namespace App\Helpers;
 
 class CommonUtility
@@ -10,7 +11,7 @@ class CommonUtility
      * @param string $capacityText
      * @return int|null
      */
-   public static function convertCapacityToMB(string $capacityText): ?int
+    public static function convertCapacityToMB(string $capacityText): ?int
     {
         if (stripos($capacityText, 'GB') !== false) {
             return (int)$capacityText * 1000; // Convert GB to MB
@@ -50,7 +51,7 @@ class CommonUtility
      * @param string $shippingText
      * @return string|null
      */
-     public static function extractShippingDate(string $shippingText): ?string
+    public static function extractShippingDate(string $shippingText): ?string
     {
         // 1. Check for date in 'YYYY-MM-DD' format (ISO)
         if (preg_match('/(\d{4}-\d{2}-\d{2})/', $shippingText, $isoDateMatches)) {
@@ -104,13 +105,14 @@ class CommonUtility
 
     /**
      * Function to convert currency symbol to string
-     * @param string $symbol
+     * @param string $price
      * @return string
      */
-    public static function getCurrencySymbol($price) {
+    public static function getCurrencySymbol($price)
+    {
         // Use regular expression to extract the currency symbol
         preg_match('/([^\d.,]+)/', $price, $matches);
-        
+
         // Return the currency symbol or a default value if not found
         return !empty($matches) ? trim($matches[1]) : null;
     }
@@ -118,9 +120,10 @@ class CommonUtility
     /** 
      * Function to convert currency symbol to string
      * @param string $symbol
-     * @return string
+     * @return string|null
      */
-    public static function convertCurrencySymbolToString($symbol): ?string {
+    public static function convertCurrencySymbolToString($symbol): ?string
+    {
         // Define a mapping of currency symbols to currency codes
         $currencyMap = [
             '$' => 'USD',

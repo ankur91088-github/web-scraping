@@ -49,14 +49,14 @@ class ProductExtractor
      */
     private function extractProductData(Crawler $node): array
     {
-        $baseUrl = config('constants.IMAGE_BASE_URL');
+        $imageBaseUrl = config('constants.IMAGE_BASE_URL');
         $title = $node->filter('.product-name')->text() ?: 'Unknown Product';
         $priceText = $node->filter('div.my-8.block.text-center.text-lg')->text();
         $price = (float) filter_var($priceText, FILTER_SANITIZE_NUMBER_FLOAT, FILTER_FLAG_ALLOW_FRACTION) ?: 0.0;
         $currencySymbol = CommonUtility::getCurrencySymbol($node->filter('div.my-8.block.text-center.text-lg')->text());
         $currencyText =  CommonUtility::convertCurrencySymbolToString($currencySymbol);
         $imageUrl = $node->filter('img')->attr('src') ?: '';
-        $fullImageUrl = CommonUtility::resolveImageUrl($imageUrl, $baseUrl);
+        $fullImageUrl = CommonUtility::resolveImageUrl($imageUrl, $imageBaseUrl);
         $capacityText = $node->filter('.product-capacity')->text() ?: '0GB';
         $availabilityText = $node->filter('.my-4.text-sm.block.text-center')->first()->text() ?: 'Unavailable';
         $isAvailable = stripos($availabilityText, 'In Stock') !== false;

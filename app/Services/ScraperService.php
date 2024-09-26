@@ -54,7 +54,4 @@ class ScraperService
             $this->scrapeSmartphones($currentPage + 1); // Recur for next page
         }
     }
-
-
-    
 }
