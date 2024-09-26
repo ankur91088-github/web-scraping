@@ -53,7 +53,7 @@ class ScrapeProducts extends Command
             $productData = $this->scraperService->scrapeSmartphones();
 
             if (count($productData) > 0) {
-                echo $this->jsonService->exportProductsToJsonFile('Cddoutput.json', $productData);
+                echo $this->jsonService->exportProductsToJsonFile('output.json', $productData);
                 $this->info('Scraping completed successfully, data exported to output.json');
             } else {
                 $this->warn('No data found on the provided URL.');
