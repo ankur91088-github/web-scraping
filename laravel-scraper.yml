@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      php: 7.2 # Ensure CodeBuild uses PHP 7.4
+      php: 8 # Ensure CodeBuild uses PHP 7.4
     commands:
       - echo "Installing Composer dependencies..."
       - composer install --no-progress --no-suggest --prefer-dist --optimize-autoloader
