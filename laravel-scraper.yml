@@ -3,17 +3,16 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      php: 7.4
+      php: 7.4  # Ensure CodeBuild uses PHP 7.4
     commands:
-      - echo Installing dependencies...
+      - echo "Installing Composer dependencies..."
       - composer install --no-progress --no-suggest --prefer-dist --optimize-autoloader
 
   pre_build:
     commands:
-      - echo Setting up environment variables...
+      - echo "Setting up environment variables and database..."
       - cp .env.example .env
       - php artisan key:generate
-      - echo Configuring SQLite Database...
       - mkdir -p database
       - touch database/database.sqlite
       - echo "DB_CONNECTION=sqlite" >> .env
@@ -22,9 +21,9 @@ phases:
 
   build:
     commands:
-      - echo Running Laravel tests...
+      - echo "Running tests..."
       - php artisan test
-      - echo Running web scraper...
+      - echo "Running web scraper..."
       - php artisan app:scrape
 
 artifacts:
